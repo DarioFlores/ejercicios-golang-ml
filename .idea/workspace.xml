@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e107227d-364a-4798-9bee-8b036051bc2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09-twitter/datos/tweet.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-twitter/persona/persona.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-almacen/almacen/almacen.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-almacen/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-almacen/producto/producto.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -50,34 +74,32 @@
       <recent name="$PROJECT_DIR$/04-simular-mail/correo" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestFallaSiTieneMenosDe8Caracteres in github.com/DarioFlores/06-fecha">
-    <configuration name="go build github.com/DarioFlores/03-funcion-dos-retornos" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build github.com/DarioFlores/10-almacen">
+    <configuration name="go build github.com/DarioFlores/08-mascota" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ejercicios" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/03-funcion-dos-retornos/main.go" />
-      <package value="github.com/DarioFlores/03-funcion-dos-retornos" />
+      <filePath value="$PROJECT_DIR$/08-mascota/mascota.go" />
+      <package value="github.com/DarioFlores/08-mascota" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/DarioFlores/04-simular-mail" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/DarioFlores/09-twitter" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ejercicios" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/04-simular-mail/main.go" />
-      <package value="github.com/DarioFlores/04-simular-mail" />
+      <filePath value="$PROJECT_DIR$/09-twitter/main.go" />
+      <package value="github.com/DarioFlores/09-twitter" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFallaSiTieneMenosDe8Caracteres in github.com/DarioFlores/05-password" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/DarioFlores/10-almacen" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="ejercicios" />
-      <working_directory value="$PROJECT_DIR$/05-password" />
-      <framework value="gotest" />
+      <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/DarioFlores/05-password" />
+      <filePath value="$PROJECT_DIR$/10-almacen/main.go" />
+      <package value="github.com/DarioFlores/10-almacen" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestFallaSiTieneMenosDe8Caracteres\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestFallaSiTieneMenosDe8Caracteres in github.com/DarioFlores/06-fecha" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -103,17 +125,28 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/DarioFlores/10-almacen" />
+        <item itemvalue="Go Build.go build github.com/DarioFlores/09-twitter" />
+        <item itemvalue="Go Build.go build github.com/DarioFlores/08-mascota" />
         <item itemvalue="Go Test.TestFallaSiTieneMenosDe8Caracteres in github.com/DarioFlores/06-fecha" />
         <item itemvalue="Go Test.go test github.com/DarioFlores/05-password" />
-        <item itemvalue="Go Test.TestFallaSiTieneMenosDe8Caracteres in github.com/DarioFlores/05-password" />
-        <item itemvalue="Go Build.go build github.com/DarioFlores/04-simular-mail" />
-        <item itemvalue="Go Build.go build github.com/DarioFlores/03-funcion-dos-retornos" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -123,25 +156,33 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="520" y="300" key="#Go_Modules/0.25.1440.875@0.25.1440.875" timestamp="1608057017262" />
-    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1608065928092">
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom" timestamp="1608153167627">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1600.875@0.25.1440.875" timestamp="1608153167627" />
     <state width="1398" height="228" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1608065928092" />
-    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1608065928092">
+    <state width="1398" height="228" key="GridCell.Tab.0.center" timestamp="1608153167626">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1600.875@0.25.1440.875" timestamp="1608153167626" />
     <state width="1398" height="228" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1608065928092" />
-    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1608065928092">
+    <state width="1398" height="228" key="GridCell.Tab.0.left" timestamp="1608153167626">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1600.875@0.25.1440.875" timestamp="1608153167626" />
     <state width="1398" height="228" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1608065928092" />
-    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1608065928092">
+    <state width="1398" height="228" key="GridCell.Tab.0.right" timestamp="1608153167627">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
+    <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1600.875@0.25.1440.875" timestamp="1608153167627" />
     <state width="1398" height="228" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1608065928092" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1608056571629">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="229" y="98" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1608056571629" />
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup" timestamp="1608144885652">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="385" y="214" width="670" height="676" key="search.everywhere.popup/0.25.1440.875/1440.25.1600.875@0.25.1440.875" timestamp="1608144885652" />
   </component>
 </project>
