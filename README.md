@@ -104,3 +104,30 @@ TIP: si usás maps podés simplificar algunas consultas.
 
 TIP 2: Recordá que si usás punteros las modificaciones a un objeto hechas usando el puntero se reflejan en todos los lugares donde hayas usado el mismo puntero.
 
+11 - Oficina - herencia por composición
+
+Tomar el ejercicio anterior y tratar de aplicar el concepto de herencia por composición para evitar el código repetido 
+
+a - Crear una estructura llamada empleado que englobe los atributos y métodos comunes y eliminar atributos y métodos repetidos
+
+b - El dueño ya no felicita a un administrativo o a un supervisor, ahora felicita a un empleado
+
+c - En el main realizar todas las pruebas necesarias para demostrar que el código funciona. Imprimiendo esta sentencia 
+fmt.Printf("%+v %+v %+v \n", administrativo, supervisor, duenio) 
+al principio y luego al final para visualizar los cambios
+
+
+12 - Refugio de animales
+
+Un cuidador trabaja en un refugio de animales. En este refugio hay perros y loros. 
+
+Todos los animales y el cuidador tienen un nombre. Se lleva registro de la raza del perro y las palabras que sabe el loro.
+
+El cuidador, el perro y el loro implementan la interfaz posicionable. Esta interfaz tiene el método desplazar, que es una función que recibe como parámetros la nueva posición x, y del objeto en un plano. Y también cuenta con el método obtenerPosicion que devuelve la posición actual de un objeto ya que se quiere saber los lugares preferidos de los animales y el cuidador.
+
+a - Al desplazarse, el cuidador camina, el perro corre y el loro vuela a la nueva posición enviada por parámetro. Imprimir este mensaje por pantalla en cada implementación.
+
+b - Un cuidador puede pasear a uno o varios animales (objetos posicionables) al mismo tiempo. Modificando la posición de sí mismo y de todos los animales. Usar variadic function. Recibe por parámetro la cantidad de metros que se desplazan
+
+c - Un cuidador pasea a otro cuidador
+
